@@ -1,0 +1,80 @@
+body {
+    
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    /* padding: 0 3rem; */
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+}
+.logo {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid white;
+    border-radius: 1rem;
+}
+.Link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    color: white;
+    border-radius: 2rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.Link:hover {
+    color: black;
+}
