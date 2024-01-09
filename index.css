@@ -39,7 +39,22 @@ img {
     border: 3px solid white;
     border-radius: 1rem;
 }
+
+@keyframes pulsar {
+    0% {
+      transform: scale(1); /* Estado inicial da animação */
+    }
+    50% {
+      transform: scale(1.03); /* Amplia ligeiramente o elemento no meio da animação */
+    }
+    100% {
+      transform: scale(1); /* Retorna ao estado inicial */
+    }
+  }
+
 .Link {
+    animation: pulsar 1s infinite ease-in-out; 
+
     text-decoration: none;
     color: white;
     display: flex;
@@ -83,3 +98,15 @@ a {
     color: black;
 }
 
+p {
+    background: white;
+    color: black;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 900px) {
+    main {
+        background: black;
+    }
+}
