@@ -1,6 +1,4 @@
 body {
-    
-    /* width: 100%; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +7,6 @@ body {
 main {
     width: 100vw;
     height: 100vh;
-    /* padding: 0 3rem; */
     background: black;
     color: white;
     display: flex;
@@ -79,7 +76,7 @@ img {
 .Body {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: .5rem;
     justify-content: center;
     align-items: center;
 }
@@ -110,4 +107,20 @@ p {
     main {
         background: black;
     }
+}
+
+.aviso {
+    background: rgba(255, 255, 255, 0.597);
+    color: rgb(0, 0, 0);
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.bodyLink {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+   
 }
