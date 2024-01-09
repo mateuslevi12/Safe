@@ -1,15 +1,14 @@
 body {
-    
-    /* width: 100%; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    overflow: hidden;
 }
+
 main {
     width: 100vw;
     height: 100vh;
-    /* padding: 0 3rem; */
     background: black;
     color: white;
     display: flex;
@@ -18,9 +17,9 @@ main {
     align-items: center;
     gap: 1rem;
     background-image: url(falsaTimida.jpg);
-    background-repeat: no-repeat; /* Evita a repeti\u00e7\u00e3o da imagem */
-  background-position: center; /* Centraliza a imagem no elemento */
-  background-size: cover; /* Faz com que a imagem cubra todo o elemento */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .icons {
@@ -33,6 +32,7 @@ img {
     width: 2rem;
     height: 2rem;
 }
+
 .logo {
     width: 10rem;
     height: 10rem;
@@ -42,19 +42,20 @@ img {
 
 @keyframes pulsar {
     0% {
-      transform: scale(1); /* Estado inicial da animação */
+        transform: scale(1);
     }
+
     50% {
-      transform: scale(1.03); /* Amplia ligeiramente o elemento no meio da animação */
+        transform: scale(1.03);
     }
+
     100% {
-      transform: scale(1); /* Retorna ao estado inicial */
+        transform: scale(1);
     }
-  }
+}
 
 .Link {
-    animation: pulsar 1s infinite ease-in-out; 
-
+    animation: pulsar 1s infinite ease-in-out;
     text-decoration: none;
     color: white;
     display: flex;
@@ -62,7 +63,6 @@ img {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    
     background: rgba(128, 128, 128, 0.597);
     display: flex;
     flex-direction: row;
@@ -91,9 +91,8 @@ a {
     gap: 1rem;
     justify-content: center;
     align-items: center;
-
-
 }
+
 .Link:hover {
     color: black;
 }
