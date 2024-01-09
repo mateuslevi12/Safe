@@ -76,7 +76,7 @@ img {
 .Body {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
 }
@@ -116,11 +116,3 @@ p {
     border-radius: .5rem;
 }
 
-.bodyLink {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-   
-}
