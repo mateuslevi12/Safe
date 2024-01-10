@@ -116,3 +116,8 @@ p {
     border-radius: .5rem;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    /* margin-bottom: 5rem; */
+}
