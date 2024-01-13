@@ -62,8 +62,8 @@ img {
     justify-content: center;
     align-items: center;
     
-    background: rgba(255, 0, 0, 0.597);
-    width: 80vw;
+    background: rgba(255 , 0, 0, 0.597);
+    width: 80vw; 
     border-radius: 1rem;
     gap: 1rem;
     cursor: pointer;
